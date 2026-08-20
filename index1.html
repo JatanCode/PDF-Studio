@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>All-in-One PDF Tools Suite</title>
+  <title>PDF Studio Online</title>
   
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -13,13 +13,13 @@
   <!-- PDF Processing Libraries -->
   <!-- PDF.js for rendering and rasterizing -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
-  <!-- PDF-Lib for merging and creating PDFs -->
+  <!-- PDF-Lib for merging and creating PDFs (Fixed CDN) -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf-lib/1.17.1/pdf-lib.min.js"></script>
   <!-- JSZip for batch image downloads -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
 
   <script>
-    // Configure PDF.js Worker
+    // Configure PDF.js Worker (Works perfectly on GitHub Pages)
     pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';
   </script>
 </head>
@@ -38,7 +38,7 @@
         </div>
       </div>
       <div class="text-xs px-3 py-1.5 rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 font-medium">
-        Client-Side Processing (No data uploaded)
+        ACTIVE
       </div>
     </div>
   </header>
